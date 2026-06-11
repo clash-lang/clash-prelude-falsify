@@ -6,6 +6,7 @@ import Test.Tasty.Falsify
 import Test.Falsify
 import qualified Test.Falsify.Generator as Gen
 import qualified Test.Falsify.Predicate as P
+import qualified Clash.Falsify.Sized.Vector as Vec
 
 import MyLib ()
 
