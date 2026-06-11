@@ -5,4 +5,4 @@ raw-project
     type: git
     location: https://github.com/well-typed/falsify.git
     tag: 1319674f1e3f35b408e7155c2ab9b665d351aafa
-    subdir: falsify
+    subdir: falsify tasty-falsify

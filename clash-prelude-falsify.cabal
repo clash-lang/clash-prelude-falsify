@@ -38,4 +38,7 @@ test-suite clash-prelude-falsify-test
     main-is:          Main.hs
     build-depends:
         base >=4.18.3.0,
-        clash-prelude-falsify
+        clash-prelude-falsify,
+        falsify,
+        tasty,
+        tasty-falsify
