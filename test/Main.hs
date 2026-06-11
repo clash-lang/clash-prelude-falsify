@@ -7,7 +7,7 @@ import Test.Falsify
 import qualified Test.Falsify.Generator as Gen
 import qualified Test.Falsify.Predicate as P
 
-import MyLib ()
+import Clash.Falsify.Signal ()
 
 main :: IO ()
 main = defaultMain $ testGroup "clash-prelude-falsify" [
