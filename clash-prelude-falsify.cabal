@@ -12,6 +12,8 @@ maintainer:         devops@qbaylogic.com
 build-type:         Simple
 extra-doc-files:    CHANGELOG.md
 -- extra-source-files:
+tested-with:         GHC == 9.6.7, GHC == 9.8.4, GHC == 9.10.3,
+                     GHC == 9.12.4
 
 common warnings
     ghc-options: -Wall
